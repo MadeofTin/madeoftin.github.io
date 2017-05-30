@@ -14,11 +14,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="https://madeoftin.github.io/"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <h3> Algorithms </h3>
+        <p><a href="https://madeoftin.github.io/">Home</a></p>
         
+        <h3> Algorithms </h3>
         <p class="view"><a href="/maths/pop-and-drop-mst.html">Pop and Drop </a></p>
 
         {% if site.github.is_project_page %}
